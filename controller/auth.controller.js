@@ -18,7 +18,7 @@ const authController = {
             if (rows.affectedRows) {
                 return res.json({ message: "Ok" })
             } else {
-                return res.json({ error: "Error" })
+                return res.json({ error: "Error in regidter" })
             }
             
         } catch (error) {
