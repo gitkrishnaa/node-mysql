@@ -24,7 +24,9 @@ const authController = {
         } catch (error) {
             console.log(error)
             res.json({
-                error: error.message
+            error: error.message,
+            resp:"somthing error"
+                
             })
         }
     },
